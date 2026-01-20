@@ -1,12 +1,12 @@
-# Anonymized ISP User-Level Traffic Dataset
+# Anonymized ISP Event-Level Traffic Dataset for User Behavior Analysis
 
-This repository contains an anonymized ISP network traffic dataset used for user-level behavior analysis and unsupervised anomaly detection. The data are derived from real operational ISP logs and have been processed to ensure privacy preservation and ethical compliance. The dataset is intended strictly for academic and research purposes.
+This repository contains an anonymized ISP network traffic dataset used for user behavior analysis and unsupervised anomaly detection. The data are derived from real operational ISP logs and are provided at the event level with anonymized user identifiers. The dataset has been processed to ensure privacy preservation and ethical compliance and is intended strictly for academic and research purposes.
 
 ---
 
 ## Dataset Description
 
-The dataset consists of network traffic metadata collected during routine ISP monitoring operations. Each record represents a network traffic event associated with a user, without exposing any personally identifiable information or organizational identifiers. The dataset is designed to support offline analysis of user behavior through aggregated traffic characteristics.
+The dataset consists of network traffic metadata collected during routine ISP monitoring operations. Each record represents an individual network traffic event associated with an anonymized user identifier, without exposing any personally identifiable information or organizational identifiers. User-level behavior profiles used in the associated study are derived by aggregating these event-level records prior to analysis.
 
 The data are suitable for studies on:
 - User behavior analysis  
@@ -24,7 +24,7 @@ To ensure privacy and confidentiality, the following anonymization steps have be
 - Source and destination IP addresses have been removed.
 - No packet payload or application-level content is included.
 - No ISP name, geographic identifier, or organizational metadata is disclosed.
-- Timestamp information is retained only for temporal analysis and does not enable user identification.
+- Timestamp information is retained only for coarse-grained temporal analysis and does not enable user identification.
 
 As a result, the dataset does not allow re-identification of users or the originating ISP.
 
@@ -52,7 +52,7 @@ All features are metadata-level attributes only.
 This dataset is intended for:
 - Offline research and experimentation
 - Development and evaluation of unsupervised learning methods
-- User-level aggregation and behavioral modeling
+- Event-level analysis and user-level aggregation for behavioral modeling
 
 The dataset is **not** intended for:
 - Real-time intrusion detection deployment
@@ -65,9 +65,9 @@ The dataset is **not** intended for:
 ## Reproducibility
 
 The dataset supports reproducibility of published research by providing:
-- Fully anonymized raw event-level traffic logs
+- Fully anonymized event-level traffic records
 - Consistent feature definitions
-- User-level aggregation compatibility
+- Compatibility with user-level aggregation strategies
 
 Researchers are encouraged to cite the associated publication when using this dataset in academic work.
 
@@ -94,5 +94,3 @@ If you use this dataset in your research, please cite the associated article:
 > Journal of Network and Computer Applications (Elsevier).
 
 (Full citation details will be added upon publication.)
-
----
