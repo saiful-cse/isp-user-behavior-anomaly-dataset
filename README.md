@@ -15,8 +15,8 @@ The data are suitable for studies on:
 - Privacy-preserving network analytics  
 
 ### 📥 Data Access
-The complete anonymized dataset (`user_logs_anonymized_546278.csv`) is publicly available and can be downloaded from the following secure repository:
-👉 **[Download Dataset via Google Drive]([এখানে আপনার গুগল ড্রাইভের লিংক বসান])**
+The complete anonymized dataset (`user_logs_anonymized_546278_row.csv`) is publicly available and can be downloaded from the following secure repository:
+👉 **[https://drive.google.com/file/d/1kiHEJ6hzMuoa48y3BS45Y1-N1-T_SkX9/view?usp=sharing]**
 
 ---
 
