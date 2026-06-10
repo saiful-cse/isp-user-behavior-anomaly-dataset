@@ -14,6 +14,10 @@ The data are suitable for studies on:
 - Network traffic characterization  
 - Privacy-preserving network analytics  
 
+### 📥 Data Access
+The complete anonymized dataset (`user_logs_anonymized_546278.csv`) is publicly available and can be downloaded from the following secure repository:
+👉 **[Download Dataset via Google Drive]([এখানে আপনার গুগল ড্রাইভের লিংক বসান])**
+
 ---
 
 ## Anonymization and Privacy Protection
@@ -21,10 +25,10 @@ The data are suitable for studies on:
 To ensure privacy and confidentiality, the following anonymization steps have been applied:
 
 - User identifiers are irreversibly hashed and encoded into numeric user IDs.
-- Source and destination IP addresses have been removed.
+- Source and destination IP addresses have been completely removed.
 - No packet payload or application-level content is included.
 - No ISP name, geographic identifier, or organizational metadata is disclosed.
-- Timestamp information is retained only for coarse-grained temporal analysis and does not enable user identification.
+- Logged timestamps are left completely unaltered. Since the associated framework relies purely on aggregated statistical metadata rather than sequential time-series tracking, explicit temporal sequence processing was omitted.
 
 As a result, the dataset does not allow re-identification of users or the originating ISP.
 
@@ -36,8 +40,8 @@ The anonymized dataset is provided in CSV format with the following fields:
 
 | Column Name | Description |
 |------------|-------------|
-| `timestamp` | Time of the traffic event (coarse-grained) |
-| `user_id` | Encoded user identifier |
+| `timestamp` | Time of the traffic event (Original unaltered format) |
+| `user_id` | Encoded numeric user identifier |
 | `protocol` | Network protocol (e.g., TCP, UDP) |
 | `src_port` | Source port number |
 | `dst_port` | Destination port number |
@@ -62,14 +66,13 @@ The dataset is **not** intended for:
 
 ---
 
-## Reproducibility
+## Reproducibility & Source Code
 
-The dataset supports reproducibility of published research by providing:
-- Fully anonymized event-level traffic records
-- Consistent feature definitions
-- Compatibility with user-level aggregation strategies
+To ensure full transparency and reproducibility of the published results, the complete source code configurations, including the raw data anonymization pipeline logic and machine learning models, are provided in this repository.
 
-Researchers are encouraged to cite the associated publication when using this dataset in academic work.
+- You can view and run the replication notebook directly here: **[Google Colab / Jupyter Notebook Link]([এখানে আপনার গিটহাবের কোড ফাইলের লিংক বসান])**
+
+Researchers are encouraged to cite the associated publication when using this dataset or code in academic work.
 
 ---
 
