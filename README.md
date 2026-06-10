@@ -70,7 +70,7 @@ The dataset is **not** intended for:
 
 To ensure full transparency and reproducibility of the published results, the complete source code configurations, including the raw data anonymization pipeline logic and machine learning models, are provided in this repository.
 
-- You can view and run the replication notebook directly here: **[Google Colab / Jupyter Notebook Link]([https://colab.research.google.com/drive/1VFniaTWKr1Dq3eH3p6nBn9PfhrS2p6jq?usp=sharing])**
+- You can view and run the replication notebook directly here: **[Google Colab / Jupyter Notebook Link] [https://colab.research.google.com/drive/1VFniaTWKr1Dq3eH3p6nBn9PfhrS2p6jq?usp=sharing]**
 
 Researchers are encouraged to cite the associated publication when using this dataset or code in academic work.
 
