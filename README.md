@@ -16,7 +16,7 @@ The data are suitable for studies on:
 
 ### 📥 Data Access
 The complete anonymized dataset (`user_logs_anonymized_546278_row.csv`) is publicly available and can be downloaded from the following secure repository:
-👉 **[https://drive.google.com/file/d/1kiHEJ6hzMuoa48y3BS45Y1-N1-T_SkX9/view?usp=sharing]**
+👉 **[Download Dataset via Google Drive][https://drive.google.com/file/d/1kiHEJ6hzMuoa48y3BS45Y1-N1-T_SkX9/view?usp=sharing]**
 
 ---
 
@@ -70,7 +70,7 @@ The dataset is **not** intended for:
 
 To ensure full transparency and reproducibility of the published results, the complete source code configurations, including the raw data anonymization pipeline logic and machine learning models, are provided in this repository.
 
-- You can view and run the replication notebook directly here: **[Google Colab / Jupyter Notebook Link]([এখানে আপনার গিটহাবের কোড ফাইলের লিংক বসান])**
+- You can view and run the replication notebook directly here: **[Google Colab / Jupyter Notebook Link]([https://colab.research.google.com/drive/1VFniaTWKr1Dq3eH3p6nBn9PfhrS2p6jq?usp=sharing])**
 
 Researchers are encouraged to cite the associated publication when using this dataset or code in academic work.
 
