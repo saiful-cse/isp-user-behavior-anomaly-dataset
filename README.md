@@ -91,6 +91,6 @@ Users are responsible for ensuring compliance with applicable data protection an
 If you use this dataset in your research, please cite the associated article:
 
 > *AI-Driven User Behavior Analysis and Anomaly Detection in ISP Networks*,  
-> Journal of Network and Computer Applications (Elsevier).
+> Journal (ongoing...)
 
 (Full citation details will be added upon publication.)
